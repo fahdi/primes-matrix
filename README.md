@@ -1,16 +1,36 @@
 # Problem
 
-Please write a simple program which takes a single number n from the user and in response displays n*n table, such that the content of cell (a,b) is a sum of a-th and b-th prime number. So for example for input `3` the output should read:
+One of the biggest challenges is adapting to requirement changes. Please change your program to do the following:
 
-```
-4 5  7
-5 6  8
-7 8  10
-```
+Allow user to define width and height of the matrix to build use non-square matrix.
+Give user an option for a matrix cell values to use multiplication instead of addition (so instead of `<a-th prime> + <b-th prime>` be `<a-th prime> * <b-th prime>`
+Give user an option to use Fibonacci numbers instead of prime numbers for matrix generation.
 
-You can use any library available except for prime number generation. The solution should be hosted as public repository on github. Please remember about the tests, and best industry practices.
+> Example program execution
+
+=> Please give matrix dimension `(<width>x<height>)`:
+
+-> 5x4
+
+=> Should I use (P)rime numbers or (F)ibonacci numbers?
+
+-> F
+
+=> Multiplication (*) or Addition (+)
+
+-> M
+
+=> 1 1 2 3 5
+
+=> 1 1 2 3 5
+
+=> 2 2 4 6 10
+
+=> 3 3 6 9 15
 
 # Solution
+
+### Create Virtual Environment
 
 The solution in implemented in Python 3. 
 
@@ -20,15 +40,16 @@ For creating a virtual environment
 - Or ``virtualenv myenv`` if your default python is version 3.x
 
  
-# Run Program
+### Run Program
 
-Simply use  ``python3 primes.py`` or ``python primes.py`` if your default python is 3.x 
+Simply use ``python3 primes.py`` or ``python primes.py`` if your default python is 3.x
+
+The program generates errors when input is not in correct format 
 
 
-![](primes.gif)
+![](fab_or_prime.gif)
 
-# Run Tests
+### Run Tests
 
 Use  ``python3 tests.py``
 
- 

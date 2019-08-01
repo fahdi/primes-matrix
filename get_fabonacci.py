@@ -6,4 +6,3 @@ def get_fabonacci(total):
             break
     return fibonacci_numbers
 
-print(get_fabonacci(9))
