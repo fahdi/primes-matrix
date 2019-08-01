@@ -17,7 +17,7 @@ The solution in implemented in Python 3.
 For creating a virtual environment 
 
 - Use ``python3 -m venv myenv`` 
-- Or `` virtualenv venv `` if your default python is version 3.x
+- Or ``virtualenv myenv`` if your default python is version 3.x
 
  
 # Run code
