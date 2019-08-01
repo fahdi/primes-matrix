@@ -16,3 +16,5 @@ def get_primes(total):
             break
 
     return primes
+
+print(get_primes(10))
