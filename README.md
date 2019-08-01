@@ -20,9 +20,15 @@ For creating a virtual environment
 - Or ``virtualenv myenv`` if your default python is version 3.x
 
  
-# Run code
+# Run Program
 
 Simply use  ``python3 primes.py`` or ``python primes.py`` if your default python is 3.x 
 
 
 ![](primes.gif)
+
+# Run Tests
+
+Use  ``python3 tests.py``
+
+ 
