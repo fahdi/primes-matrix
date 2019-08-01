@@ -168,16 +168,3 @@ records:
   - delay: 223
     content: "\r\n 4  5  7  9 \r\n 5  6  8 10 \r\n 7  8 10 12 \r\n 9 10 12 14 \r\n"
   - delay: 9
-    content: "\e]7;file://Fahads-MBP-15-2017.local/Users/fahadmurtaza/Desktop/prime-matrix\a"
-  - delay: 5
-    content: "\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/Users/fahadmurtaza/Desktop/prime-matrix\a\e]133;D;0\a\e]133;A\a~/Desktop/prime-matrix: $ \e]133;B\a"
-  - delay: 5397
-    content: "logout\r\n"
-  - delay: 14
-    content: "\e]133;C;\aSaving session..."
-  - delay: 14
-    content: "\r\n...copying shared history..."
-  - delay: 5
-    content: "\r\n...saving history..."
-  - delay: 9
-    content: "truncating history files...\r\n...completed.\r\n"
