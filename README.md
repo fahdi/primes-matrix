@@ -25,4 +25,4 @@ For creating a virtual environment
 Simply use  ``python3 primes.py`` or ``python primes.py`` if your default python is 3.x 
 
 
-![](terminal.gif)
+![](primes.gif)

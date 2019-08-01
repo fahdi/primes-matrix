@@ -9,7 +9,7 @@ config:
   
   # Specify the current working directory path
   # the default is the current working directory path
-  cwd: /Users/fahadmurtaza/Desktop/prime-matrix
+  cwd: /prime-matrix
   
   # Export additional ENV variables
   env:
@@ -111,60 +111,69 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 904
-    content: "\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/Users/fahadmurtaza/Desktop/prime-matrix\a\e]1337;ShellIntegrationVersion=10;shell=bash\a"
-  - delay: 236
-    content: "\e]7;file://Fahads-MBP-15-2017.local/Users/fahadmurtaza/Desktop/prime-matrix\a\e]133;C;\a\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/Users/fahadmurtaza/Desktop/prime-matrix\a\e[?1034h\e]133;D;0\a\e]133;A\a~/Desktop/prime-matrix: $ \e]133;B\a"
-  - delay: 1871
+  - delay: 59
+    content: "\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/prime-matrix\a\e]1337;ShellIntegrationVersion=10;shell=bash\a"
+  - delay: 248
+    content: "\e]7;file://Fahads-MBP-15-2017.local/prime-matrix\a\e]133;C;\a\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/prime-matrix\a\e[?1034h\e]133;D;0\a\e]133;A\a $ \e]133;B\a"
+  - delay: 1436
     content: p
   - delay: 370
     content: 'y'
-  - delay: 259
+  - delay: 248
     content: t
-  - delay: 100
+  - delay: 123
     content: h
-  - delay: 225
+  - delay: 333
     content: o
-  - delay: 259
+  - delay: 218
     content: 'n'
-  - delay: 753
+  - delay: 395
+    content: '3'
+  - delay: 415
+    content: "\b\e[K"
+  - delay: 306
     content: ' '
-  - delay: 1093
+  - delay: 752
     content: p
-  - delay: 133
+  - delay: 190
     content: r
-  - delay: 294
-    content: "\aimes."
-  - delay: 1474
-    content: "\a"
-  - delay: 1147
+  - delay: 158
+    content: i
+  - delay: 203
+    content: m
+  - delay: 78
+    content: e
+  - delay: 169
+    content: s
+  - delay: 202
+    content: "\a."
+  - delay: 969
     content: p
-  - delay: 213
+  - delay: 167
     content: 'y '
   - delay: 529
     content: "\r\n"
   - delay: 10
     content: "\e]133;C;\a"
-  - delay: 95
+  - delay: 107
     content: 'Enter a number: '
-  - delay: 2578
+  - delay: 1752
     content: '3'
-  - delay: 220
+  - delay: 134
     content: "\r\n 4  5  7 \r\n 5  6  8 \r\n 7  8 10 \r\n"
-  - delay: 7
-    content: "\e]7;file://Fahads-MBP-15-2017.local/Users/fahadmurtaza/Desktop/prime-matrix\a"
+  - delay: 8
+    content: "\e]7;file://Fahads-MBP-15-2017.local/prime-matrix\a"
   - delay: 5
-    content: "\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/Users/fahadmurtaza/Desktop/prime-matrix\a\e]133;D;0\a\e]133;A\a~/Desktop/prime-matrix: $ \e]133;B\a"
-  - delay: 964
+    content: "\e]1337;RemoteHost=fahadmurtaza@Fahads-MBP-15-2017.local\a\e]1337;CurrentDir=/prime-matrix\a\e]133;D;0\a\e]133;A\a $ \e]133;B\a"
+  - delay: 840
     content: 'python primes.py '
-  - delay: 664
+  - delay: 585
     content: "\r\n"
-  - delay: 16
+  - delay: 13
     content: "\e]133;C;\a"
-  - delay: 48
+  - delay: 45
     content: 'Enter a number: '
-  - delay: 1333
+  - delay: 1315
     content: '4'
-  - delay: 223
+  - delay: 157
     content: "\r\n 4  5  7  9 \r\n 5  6  8 10 \r\n 7  8 10 12 \r\n 9 10 12 14 \r\n"
-
